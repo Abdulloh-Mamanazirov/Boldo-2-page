@@ -1,21 +1,129 @@
-/* Shu rang ishlatilgan ekan 
-#0A2640;
- */
-
+// Murod html
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
 a {
-  text-decoration: none;
+    color: inherit;
 }
-ul {
-  list-style: none;
+    // font-family: 'Open Sans', sans-serif;
+    // handshake bolim
+.handshakecont {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0A2640;
+    width: 1536px;
+    height: 700px;
 }
+.handshakecont{
+    padding-top: 100px;
+    h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #F1F1F1;
+    margin-left: 680px;
+    } 
+}
+.handh2 {
+    font-size: 55px;
+    font-weight: 400;
+    color:white;
+    margin-left: 260px;
+    margin-top: 20px;
+    line-height: 80px;
+}
+.h2two {
+    font-size: 55px;
+    font-weight: 400;
+    color:white;
+    margin-left: 450px;
+}
+.numbersbox {
+    display: flex;
+}
+.numberbox1 {
+    margin-top: 82px;
+    margin-left: 140px;
+    width: 300px;
+    h2 {
+        color: #4FE9A4;
+        font-size: 96px;
+        font-weight: 400;
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+    }
+}
+.numberbox2 {
+    margin-left: 181px;
+    margin-top: 82px;
+    width: 300px;
+    h2 {
+        color: #4FE9A4;
+        font-size: 96px;
+        font-weight: 400;
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 400;
+        color:white;
+    }
+}
+// handshake bolim tugadi
 
-body {
-  font-family: sans-serif;
+// leader bolim
+.leader {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 110px;
 }
+.ourh3 {
+    color: #777777;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 320px;
+}
+.theh2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.pbox {
+    font-size: 20px;
+    font-weight: 400;
+    color:#777777;
+    width: 800px;
+    height: 110px;
+    margin-left: 320px;
+    margin-top: 25px;
+}
+.team {
+    margin-top: 52px;
+    display: flex;
+    height: 600px;
+    h2 {
+        font-size: 28px;
+        font-weight: 400;
+        margin-top: 24px;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #777777;
+        margin-top: 14px;
+    }
+}
+.teambox1 {
+    margin-left: 220px;
+}
+.teambox2 {
+    margin-left: 61px;
+}
+.teambox3 {
+    margin-left: 61px;
+}
+// leader bolim tugadi
+// Murod html
