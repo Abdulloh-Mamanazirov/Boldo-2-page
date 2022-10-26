@@ -22,24 +22,24 @@ body {
 
 .container {
   width: 1400px;
-  height: 1066px;
+  height: 1166px;
   margin: 0 auto;
   background-color: #0a2640;
 }
 
-div {
+.heading {
   width: 800px;
-  padding-top: 40px;
-  padding-left: 140px;
+  padding-top: 80px;
+  padding-left: 210px;
 }
-div h2 {
+.heading .heading-title {
   font-weight: 400;
   font-size: 48px;
   line-height: 72px;
   color: #fff;
   padding-left: 18px;
 }
-div p {
+.heading p {
   width: 799px;
   display: flex;
   align-items: center;
@@ -52,7 +52,8 @@ div p {
 
 .three-theme {
   display: flex;
-  margin-left: 22px;
+  justify-content: center;
+  align-items: center;
 }
 .three-theme img {
   width: 150px;
@@ -60,21 +61,27 @@ div p {
 }
 .three-theme div {
   margin: 0;
-  padding: 0;
+  padding-top: 30px;
 }
 .three-theme div h4 {
   display: flex;
-  padding-left: 50px;
-  padding-top: 5px;
+  padding-left: 30px;
+  padding-bottom: 4px;
   width: 400px;
   font-weight: 400;
   font-size: 28px;
   line-height: 48px;
   display: flex;
-  align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .three-theme p {
-  padding-left: 50px;
-  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  width: 799px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
