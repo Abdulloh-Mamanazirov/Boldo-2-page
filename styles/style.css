@@ -26,13 +26,20 @@ body {
 
 .nav {
   background-color: #0a2640;
-  -webkit-box-shadow: 0 10px 12px #0a2640;
-          box-shadow: 0 10px 12px #0a2640;
+  -webkit-box-shadow: 0 5px 10px #0a2640;
+          box-shadow: 0 5px 10px #0a2640;
 }
 
 .kontainer {
   width: 1300px;
   margin: 0 auto;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 nav {
@@ -48,6 +55,8 @@ nav {
 nav .nav-items ul li {
   font-weight: 600;
   font-size: 16px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 nav .nav-items ul li:not(:last-child) {
@@ -58,11 +67,24 @@ nav .nav-items ul li a {
   color: #fff;
 }
 
+nav .nav-items ul li:hover:not(:last-child) {
+  opacity: .8;
+  text-decoration: underline;
+}
+
 nav .nav-items ul li .btn {
   padding: 8px 40px;
   background-color: #fff;
   border-radius: 24px;
   color: #0a2640;
+}
+
+nav .nav-items ul li .btn:hover {
+  background-color: #e6e6e6;
+}
+
+nav .nav-items ul li .btn:active {
+  background-color: #d8d8d8;
 }
 
 header {

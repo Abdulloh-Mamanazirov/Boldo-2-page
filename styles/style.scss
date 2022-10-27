@@ -21,13 +21,17 @@ body {
 }
 .nav {
   background-color: #0a2640;
-  box-shadow: 0 10px 12px #0a2640;
+  box-shadow: 0 5px 10px #0a2640;
 }
 .kontainer {
   width: 1300px;
   margin: 0 auto;
 }
-
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
 nav {
   justify-content: space-between;
   align-items: center;
@@ -37,17 +41,28 @@ nav {
       li {
         font-weight: 600;
         font-size: 16px;
+        transition: all 0.3s;
         &:not(:last-child) {
           padding-right: 40px;
         }
         a {
           color: #fff;
         }
+        &:hover:not(:last-child){
+          opacity: .8;
+          text-decoration: underline;
+        }
         .btn {
           padding: 8px 40px;
           background-color: #fff;
           border-radius: 24px;
           color: #0a2640;
+        }
+        .btn:hover{
+          background-color: rgb(230, 230, 230);
+        }
+        .btn:active{
+          background-color: rgb(216, 216, 216);
         }
       }
     }
@@ -95,39 +110,39 @@ header {
     flex-wrap: wrap;
     position: relative;
     bottom: 100px;
-    div:nth-child(5){
+    div:nth-child(5) {
       position: absolute;
       top: 345px;
       right: 0;
     }
-    div:nth-child(4){
+    div:nth-child(4) {
       position: absolute;
       top: 328px;
     }
   }
-  .section-1-text{
+  .section-1-text {
     width: 850px;
     margin: 0 auto;
-    h4{
-        color: #777;
-        padding: 70px 0 12px 0;
-        font-size: 20px;
-        font-weight: 400;
+    h4 {
+      color: #777;
+      padding: 70px 0 12px 0;
+      font-size: 20px;
+      font-weight: 400;
     }
-    h2{
-        color: #000;
-        width: 842px;
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 72px;
+    h2 {
+      color: #000;
+      width: 842px;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 72px;
     }
-    p{
-        color: #777;
-        width: 800px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 32px;
-        padding: 30px 0 100px 0;
+    p {
+      color: #777;
+      width: 800px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      padding: 30px 0 100px 0;
     }
   }
 }
