@@ -4,30 +4,26 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 .flex {
-  display: flex; 
- width: 70%;
- height: 100%;
-line-height: 30px;
- place-items: center;
- margin: 0 ;
- padding-right: 100px;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  line-height: 30px;
+  place-items: center;
+  margin: 0;
+  padding-right: 100px;
 }
 
-
-
 footer {
- 
   align-items: center;
   justify-content: space-between;
   width: 100%;
- 
   display: flex;
   place-items: center;
   margin: auto;
   background-color: white;
   color: grey;
- 
 }
 
 footer p {
@@ -36,8 +32,8 @@ footer p {
   list-style: none;
   letter-spacing: 1px;
   line-height: 32px;
-  // margin-top: 20px;
 }
+
 li p {
   width: 100%;
   text-align: center;
@@ -45,18 +41,17 @@ li p {
 }
 
 footer ul {
-
   margin: 0 70px;
   list-style: none;
-
 }
 
 li h3 {
   color: black;
   font-family: system-ui;
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
+
 li h4 {
   margin-bottom: 15px;
   color: black;
-}
+}/*# sourceMappingURL=style.css.map */
