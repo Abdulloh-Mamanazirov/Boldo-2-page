@@ -1,4 +1,7 @@
 
+/* Shu rang ishlatilgan ekan 
+#0A2640;
+*/
 
 * {
     margin: 0;
@@ -87,6 +90,7 @@ a {
     font-weight: 400;
     margin-left: 320px;
 }
+
 .theh2 {
     font-size: 48px;
     font-weight: 400;
@@ -262,3 +266,86 @@ header {
   }
 }
 
+
+.container {
+  width: 1400px;
+  height: 1166px;
+  margin: 0 auto;
+  background-color: #0a2640;
+}
+
+.heading {
+  width: 800px;
+  
+  padding: {
+    top: 80px;
+    left: 210px;
+  }
+
+  .heading-title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #fff;
+
+    padding: {
+      left: 18px;
+    }
+  }
+
+  p {
+    width: 799px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    padding: 20px;
+  }
+}
+// three-theme
+
+.three-theme {
+  display: flex;
+  // margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 150px;
+    height: 151px;
+  }
+  div {
+    margin: 0;
+    padding-top: 30px;
+    }
+    h4 {
+      display: flex;
+      padding: {
+        left: 30px;
+      bottom: 4px;
+      }
+      width: 400px;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 48px;
+      display: flex;
+      color: #ffffff;
+    }
+    
+    p {
+      padding: {
+        left: 30px;
+      bottom: 70px;
+      }
+      display: flex;
+      align-items: center;
+      width: 799px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: #fff;
+    }
+  }
+
+  

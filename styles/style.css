@@ -1,3 +1,6 @@
+/* Shu rang ishlatilgan ekan 
+#0A2640;
+*/
 * {
   margin: 0;
   padding: 0;
@@ -310,5 +313,93 @@ header section {
   font-size: 20px;
   line-height: 32px;
   padding: 30px 0 100px 0;
+}
+
+.container {
+  width: 1400px;
+  height: 1166px;
+  margin: 0 auto;
+  background-color: #0a2640;
+}
+
+.heading {
+  width: 800px;
+  padding-top: 80px;
+  padding-left: 210px;
+}
+
+.heading .heading-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #fff;
+  padding-left: 18px;
+}
+
+.heading p {
+  width: 799px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+  padding: 20px;
+}
+
+.three-theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.three-theme img {
+  width: 150px;
+  height: 151px;
+}
+
+.three-theme div {
+  margin: 0;
+  padding-top: 30px;
+}
+
+.three-theme h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 4px;
+  width: 400px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  display: flex;
+  color: #ffffff;
+}
+
+.three-theme p {
+  padding-left: 30px;
+  padding-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 799px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
