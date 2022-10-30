@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+.handshakecont {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0A2640;
+  width: 1536px;
+  height: 700px;
+}
+
+.handshakecont {
+  padding-top: 100px;
+}
+
+.handshakecont h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #F1F1F1;
+  margin-left: 680px;
+}
+
+.handh2 {
+  font-size: 55px;
+  font-weight: 400;
+  color: white;
+  margin-left: 260px;
+  margin-top: 20px;
+  line-height: 80px;
+}
+
+.h2two {
+  font-size: 55px;
+  font-weight: 400;
+  color: white;
+  margin-left: 450px;
+}
+
+.numbersbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.numberbox1 {
+  margin-top: 82px;
+  margin-left: 140px;
+  width: 300px;
+}
+
+.numberbox1 h2 {
+  color: #4FE9A4;
+  font-size: 96px;
+  font-weight: 400;
+}
+
+.numberbox1 h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.numberbox2 {
+  margin-left: 181px;
+  margin-top: 82px;
+  width: 300px;
+}
+
+.numberbox2 h2 {
+  color: #4FE9A4;
+  font-size: 96px;
+  font-weight: 400;
+}
+
+.numberbox2 h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.leader {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 110px;
+}
+
+.ourh3 {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 320px;
+}
+
+.theh2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-left: 320px;
+  margin-top: 30px;
+}
+
+.pbox {
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+  width: 800px;
+  height: 110px;
+  margin-left: 320px;
+  margin-top: 25px;
+}
+
+.team {
+  margin-top: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+}
+
+.team h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.team h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+  margin-top: 14px;
+}
+
+.teambox1 {
+  margin-left: 220px;
+}
+
+.teambox2 {
+  margin-left: 61px;
+}
+
+.teambox3 {
+  margin-left: 61px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav {
+  background-color: #0a2640;
+  -webkit-box-shadow: 0 5px 10px #0a2640;
+          box-shadow: 0 5px 10px #0a2640;
+}
+
+.kontainer {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+nav .nav-items ul li {
+  font-weight: 600;
+  font-size: 16px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav .nav-items ul li:not(:last-child) {
+  padding-right: 40px;
+}
+
+nav .nav-items ul li a {
+  color: #fff;
+}
+
+nav .nav-items ul li:hover:not(:last-child) {
+  opacity: .8;
+  text-decoration: underline;
+}
+
+nav .nav-items ul li .btn {
+  padding: 8px 40px;
+  background-color: #fff;
+  border-radius: 24px;
+  color: #0a2640;
+}
+
+nav .nav-items ul li .btn:hover {
+  background-color: #e6e6e6;
+}
+
+nav .nav-items ul li .btn:active {
+  background-color: #d8d8d8;
+}
+
+header {
+  background-color: #0a2640;
+}
+
+header .header-text {
+  color: #fff;
+  width: 740px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .header-text h4 {
+  padding-top: 70px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+header .header-text h1 {
+  padding: 12px 0 18px 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 85px;
+}
+
+header .header-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f1f1f1;
+  padding-bottom: 166px;
+}
+
+header section {
+  background-color: #fff;
+}
+
+.section-1 {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.section-1 .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  bottom: 100px;
+}
+
+.section-1 .images div:nth-child(5) {
+  position: absolute;
+  top: 345px;
+  right: 0;
+}
+
+.section-1 .images div:nth-child(4) {
+  position: absolute;
+  top: 328px;
+}
+
+.section-1 .section-1-text {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.section-1 .section-1-text h4 {
+  color: #777;
+  padding: 70px 0 12px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.section-1 .section-1-text h2 {
+  color: #000;
+  width: 842px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.section-1 .section-1-text p {
+  color: #777;
+  width: 800px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 30px 0 100px 0;
+}
+/*# sourceMappingURL=style.css.map */
