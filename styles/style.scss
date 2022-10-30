@@ -1,7 +1,9 @@
 
+
 /* Shu rang ishlatilgan ekan 
 #0A2640;
 */
+
 
 * {
     margin: 0;
@@ -89,6 +91,63 @@ a {
     font-size: 20px;
     font-weight: 400;
     margin-left: 320px;
+
+.flex {
+  display: flex; 
+ width: 70%;
+ height: 100%;
+line-height: 30px;
+ place-items: center;
+ margin: 0 ;
+ padding-right: 100px;
+}
+
+
+
+footer {
+ 
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ 
+  display: flex;
+  place-items: center;
+  margin: auto;
+  background-color: white;
+  color: grey;
+ 
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  letter-spacing: 1px;
+  line-height: 32px;
+  // margin-top: 20px;
+}
+li p {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+
+footer ul {
+
+  margin: 0 70px;
+  list-style: none;
+
+}
+
+li h3 {
+  color: black;
+  font-family: system-ui;
+margin-bottom: 15px;
+}
+li h4 {
+  margin-bottom: 15px;
+  color: black;
+
 }
 
 .theh2 {
@@ -347,5 +406,4 @@ header {
       color: #fff;
     }
   }
-
-  
+}
